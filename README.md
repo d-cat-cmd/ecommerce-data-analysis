@@ -1,21 +1,23 @@
-Folder structure:
-data-portfolio/
-├── databases/
-│   └── ecommerce.db (we'll create this)
-├── sql_queries/
-│   ├── create_tables.sql
-│   ├── sample_queries.sql
-│   └── advanced_queries.sql
-├── python_scripts/
-│   ├── create_database.py
-│   ├── analyze_data.py
-│   └── visualizations.py
-├── jupyter_notebooks/
-│   └── ecommerce_analysis.ipynb
-└── README.md
+    Folder structure:
+    data-portfolio/
+    ├── databases/
+    │   └── ecommerce.db (we'll create this)
+    ├── sql_queries/
+    │   ├── create_tables.sql
+    │   ├── sample_queries.sql
+    │   └── advanced_queries.sql
+    ├── python_scripts/
+    │   ├── create_database.py
+    │   ├── analyze_data.py
+    │   └── visualizations.py
+    ├── jupyter_notebooks/
+    │   └── ecommerce_analysis.ipynb
+    └── README.md
+    
+    Database realtionships:
 
-Database realtionships:
     create_tables.sql contains these relationships:
+    
     customers (1) ←→ (many) orders (1) ←→ (many) order_items (many) ←→ (1) products
 
     Real-World Scenarios This Handles:
