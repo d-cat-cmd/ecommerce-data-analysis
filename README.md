@@ -1,5 +1,5 @@
     Folder structure:
-    data-portfolio/
+    ecommerce-data-analysis/
     ├── databases/
     │   └── ecommerce.db (we'll create this)
     ├── sql_queries/
@@ -20,7 +20,7 @@
     
     customers (1) ←→ (many) orders (1) ←→ (many) order_items (many) ←→ (1) products
 
-    Real-World Scenarios This Handles:
+    Real-world scenarios this handles:
     One customer, multiple orders (common in e-commerce)
     One order, multiple products (shopping cart with multiple items)
     Price changes over time (unit_price preserves historical pricing)
